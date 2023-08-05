@@ -36,7 +36,7 @@ There is a pressing need for a robust, automated solution that can calibrate mul
 # Summary
 
 CO2 sensors like the SCD30, which operate based on NDIR (Non-Dispersive Infrared) technology [@ndir], are intricate optical systems. 
-It is crucial to handle these sensors with utmost care to avoid mechanical stress on the optical cavity, which can lead to changes in the sensor's physical properties, ultimately impacting calibration and resulting in reduced accuracy. To address such scenarios, the SCD30 incorporates two calibration algorithms, namely ASC (automatic self-calibration) and FRC (forced re-calibration), designed to restore full accuracy [@calibration for scd30_2018]. 
+It is crucial to handle these sensors with utmost care to avoid mechanical stress on the optical cavity, which can lead to changes in the sensor's physical properties, ultimately impacting calibration and resulting in reduced accuracy. To address such scenarios, the SCD30 incorporates two calibration algorithms, namely ASC (automatic self-calibration) and FRC (forced re-calibration), designed to restore full accuracy [@calibration]. 
 
 
 
