@@ -44,7 +44,7 @@ As previously stated, regular calibration is essential for the proper functionin
 
 This firmware requires an ESP32 and a TCA9548A multiplexer board. Once the firmware is uploaded, the ESP connects to the described WiFi credential. Upon accessing the web server through its IP address, the landing page prompts the user to provide information regarding the number of sensors connected as shown in (\autoref{fig:figure1}).  
 
-![First page of web server.\label{fig:figure1}](figure1.png){ width=85% }
+![Selecting number of sensors in the setup.\label{fig:figure1}](figure1.png){ width=85% }
 
 A reliable reference $CO_2$ value can be obtained by either of the methods:
 
