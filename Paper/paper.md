@@ -38,7 +38,7 @@ There is a pressing need for a robust, automated solution that can calibrate mul
 CO2 sensors like the SCD30, which operate based on NDIR (Non-Dispersive Infrared) technology [@ndir], are intricate optical systems. 
 It is crucial to handle these sensors with utmost care to avoid mechanical stress on the optical cavity, which can lead to changes in the sensor's physical properties, ultimately impacting calibration and resulting in reduced accuracy. To address such scenarios, the SCD30 incorporates two calibration algorithms, namely ASC (automatic self-calibration) and FRC (forced re-calibration), designed to restore full accuracy. 
 
-The SCD30 digital interface is compatible with the I2C protocol and the Modbus protocol. As shipped by Sensirion, SCD30 has a fixed I2C address of 0x61 [@scd30 interface description_2020]. To use multiple SCD30s, an I2C multiplexer is used here with an ESP32 microcontroller. 
+The SCD30 digital interface is compatible with the I2C protocol and the Modbus protocol. As shipped by Sensirion, SCD30 has a fixed I2C address of 0x61 [@scd30interfacedescription_2020]. To use multiple SCD30s, an I2C multiplexer is used here with an ESP32 microcontroller. 
 
 # Acknowledgements
 
