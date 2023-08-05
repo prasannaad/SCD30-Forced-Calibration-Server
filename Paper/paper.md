@@ -1,7 +1,7 @@
 ---
-title: 'A forced re-calibration system for SCD30 carbon dioxide sensors'
+title: 'A forced calibration system for SCD30 carbon dioxide sensors'
 tags:
-  - CO2 Sensor
+  - $CO_2$ Sensor
   - arduino
   - calibration
   - ESP32
