@@ -1,5 +1,5 @@
 ---
-title: 'A forced re-calibration system for multiple SCD30 \ce{CO2} sensors'
+title: 'A forced re-calibration system for multiple SCD30 CO2 sensors'
 tags:
   - CO2 Sensor
   - arduino
