@@ -46,7 +46,14 @@ This firmware requires an ESP32 and a TCA9548A multiplexer board. Once the firmw
 
 //Landing page image.
 
-Apart from $CO_2$ 
+A reliable reference $CO_2$ value can be obtained by either of the methods:
+1. Setting and controlling a known CO2 concentration in a sealed environment with the set $CO_2$
+concentration acting as the reference value. 
+2. Maintain a distance between the SCD30 and $CO_2$-emitting sources such as humans, open windows, and ventilation openings. A reference monitor can be used to obtain a value for FRC. 
+
+Apart from $CO_2$ calibration, the SCD30 also consists of temperature offset. The SCD30 sensor module undergoes self-heating, leading to a temperature offset that influences both the temperature and relative humidity output signals. The temperature offset is primarily influenced by two factors: the encapsulation and environment of the SCD30 sensor and the power consumption of the sensor module. Consequently, variations in the sampling interval can affect the temperature offset. The temperature offset of the SCD30 is characterized by the variance between the temperature reading it provides and the true surrounding temperature. This can be changed by entering the offset value as shown in [image]
+
+//temperature offset image. 
 
 
 # Acknowledgements
