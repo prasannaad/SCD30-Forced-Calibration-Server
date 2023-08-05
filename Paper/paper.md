@@ -30,7 +30,7 @@ bibliography: paper.bib
 Carbon dioxide ($CO_2$) sensors are vital components in various applications, such as indoor air quality assessment[@ABRAHAM2014165][@390298], climate control, and greenhouse gas monitoring. 
 Accurate calibration of these sensors is critical to ensure reliable and consistent measurements [@10152133]. 
 However, calibrating multiple sensors individually can be time-consuming and prone to human error, especially in scenarios where a large number of sensors are deployed across different locations. 
-There is a pressing need for a robust, automated solution that can calibrate multiple SCD30 $CO_2$ sensors simultaneously at the same time in a controlled environment, using a web server interface. 
+There is a pressing need for a robust, automated solution that can calibrate multiple SCD30 $CO_2$ sensors simultaneously at the same time using a web server interface. 
 
 
 # Summary
