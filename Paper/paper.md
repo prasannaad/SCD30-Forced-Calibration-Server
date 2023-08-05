@@ -1,5 +1,5 @@
 ---
-title: 'A forced re-calibration system for multiple SCD30 CO2 sensors'
+title: 'A forced re-calibration system for SCD30 carbon dioxide sensors'
 tags:
   - CO2 Sensor
   - arduino
@@ -35,7 +35,7 @@ There is a pressing need for a robust, automated solution that can calibrate mul
 
 # Summary
 
-CO2 sensors like the SCD30, which operate based on NDIR (Non-Dispersive Infrared) technology [@ndir], are intricate optical systems. 
+$CO_2$ sensors like the SCD30, which operate based on NDIR (Non-Dispersive Infrared) technology [@ndir], are intricate optical systems. 
 It is crucial to handle these sensors with utmost care to avoid mechanical stress on the optical cavity, which can lead to changes in the sensor's physical properties, ultimately impacting calibration and resulting in reduced accuracy. To address such scenarios, the SCD30 incorporates two calibration algorithms, namely ASC (automatic self-calibration) and FRC (forced re-calibration), designed to restore full accuracy. 
 
 As previously stated, regular calibration is essential for the proper functioning of the SCD30 sensor. In research applications, multiple SCD30 sensors are used for various experiments. The SCD30 digital interface is compatible with the I2C protocol and the Modbus protocol. As shipped by Sensirion, SCD30 has a fixed I2C address of 0x61 [@scd30interfacedescription_2020]. To use multiple SCD30s, an I2C multiplexer is used here with an ESP32 microcontroller. Once connected to WiFi, a local web server can be accessed by entering the IP address. 
@@ -46,16 +46,8 @@ This firmware requires an ESP32 and a TCA9548A multiplexer board. Once the firmw
 
 //Landing page image.
 
-Apart from CO 
+Apart from $CO_2$ 
 
-Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
-
-Double dollars make self-standing equations:
-
-$$\Theta(x) = \left\{\begin{array}{l}
-0\textrm{ if } x < 0\cr
-1\textrm{ else}
-\end{array}\right.$$
 
 # Acknowledgements
 
