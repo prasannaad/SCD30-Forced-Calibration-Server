@@ -1,5 +1,5 @@
 ---
-title: 'A forced re-calibration system for multiple SCD30 carbon dioxide sensors'
+title: 'A forced re-calibration system for multiple SCD30 \ce{CO2} sensors'
 tags:
   - CO2 Sensor
   - arduino
@@ -30,7 +30,7 @@ bibliography: paper.bib
 Carbon dioxide (CO2) sensors are vital components in various applications, such as indoor air quality assessment[@ABRAHAM2014165][@390298], climate control, and greenhouse gas monitoring. 
 Accurate calibration of these sensors is critical to ensure reliable and consistent measurements [@10152133]. 
 However, calibrating multiple sensors individually can be time-consuming and prone to human error, especially in scenarios where a large number of sensors are deployed across different locations. 
-There is a pressing need for a robust, automated solution that can calibrate multiple SCD30 CO2 sensors simultaneously at the same time in a controlled environment, using a web server interface. 
+There is a pressing need for a robust, automated solution that can calibrate multiple SCD30 \ce{CO2} sensors simultaneously at the same time in a controlled environment, using a web server interface. 
 
 
 # Summary
@@ -43,6 +43,10 @@ As previously stated, regular calibration is essential for the proper functionin
 # Usage
 
 This firmware requires an ESP32 and a TCA9548A multiplexer board. Once the firmware is uploaded, the ESP connects to the described WiFi credential. Upon accessing the web server through its IP address, the landing page prompts the user to provide information regarding the number of sensors connected as shown in (\autoref{fig:ferraris_gui}).  
+
+//Landing page image.
+
+Appart from CO 
 
 
 # Acknowledgements
