@@ -42,9 +42,9 @@ As previously stated, regular calibration is essential for the proper functionin
 
 # Usage
 
-This firmware requires an ESP32 and a TCA9548A multiplexer board. Once the firmware is uploaded, the ESP connects to the described WiFi credential. Upon accessing the web server through its IP address, the landing page prompts the user to provide information regarding the number of sensors connected as shown in (\autoref{fig:ferraris_gui}).  
+This firmware requires an ESP32 and a TCA9548A multiplexer board. Once the firmware is uploaded, the ESP connects to the described WiFi credential. Upon accessing the web server through its IP address, the landing page prompts the user to provide information regarding the number of sensors connected as shown in (\autoref{fig:figure1}).  
 
-//Landing page image.
+![First page of web server.\label{fig:figure1}](figure1.png){ width=50% }
 
 A reliable reference $CO_2$ value can be obtained by either of the methods:
 1. Setting and controlling a known CO2 concentration in a sealed environment with the set $CO_2$
