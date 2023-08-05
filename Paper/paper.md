@@ -1,5 +1,5 @@
 ---
-title: 'A forced calibration system for SCD30 carbon dioxide sensors'
+title: 'A forced calibration system for SCD30 carbon dioxide sensor'
 tags:
   - $CO_2$ Sensor
   - arduino
