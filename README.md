@@ -9,5 +9,5 @@ This firmware is based on forced re-calibration. Multiple (around 8 at a time) s
 
 
 ## Hardware Requirements.
-1. TCA9548A-based I2C multiplexer (preferably from Seeedstudio).
-2. ESP32 (any variant. ESP32S3 Xiao preferred for compact size). ![image](https://github.com/prasannaad/SCD30-Forced-Calibration-Server/assets/70738433/6c0b607e-37ff-4099-b103-69af675788d9)
+1. TCA9548A-based I2C multiplexer (preferably from [Seeedstudio](https://www.seeedstudio.com/Grove-8-Channel-I2C-Hub-TCA9548A-p-4398.html)).
+2. ESP32 (any variant. ESP32S3 Xiao preferred for compact size).
