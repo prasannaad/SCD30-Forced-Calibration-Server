@@ -21,4 +21,6 @@ environment with controlled CO2 concentration; or from fresh outside air (= 400~
 1. TCA9548A-based I2C multiplexer (preferably from [Seeedstudio](https://www.seeedstudio.com/Grove-8-Channel-I2C-Hub-TCA9548A-p-4398.html)).
 2. ESP32 (any variant. [ESP32 Xiao](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html?queryID=0ed4f7c78acc6053be3f599cb81fd784&objectID=5431&indexName=bazaar_retailer_products) preferred for compact size).
 
+## Using the Firmware
+
 
